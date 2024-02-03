@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227346797197",
+    "project_id": "pillease-4c962",
+    "storage_bucket": "pillease-4c962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227346797197:android:94f0bfec0735a1922388c4",
+        "android_client_info": {
+          "package_name": "com.basset.pillease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBULL3MNuit9csNVO3dJaDP48TmoOe6m-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

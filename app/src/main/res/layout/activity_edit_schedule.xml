@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="modifier l'heure de prise de médicaments ? : "
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <EditText
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Heure de prise (HH:mm)"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btnSaveTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer" />
+
+    <TextView
+        android:id="@+id/currentTimeDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heure de prise de médicaments: "
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
